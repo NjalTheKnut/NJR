@@ -1,0 +1,49 @@
+@font-face{
+	font-family: SHERWOOD;
+	src: url('SHERWOOD.TTF');
+}
+@font-face{
+	font-family: quadrangle;
+	src: url('quadrangle.ttf');
+}
+
+.main{
+	font-family:"quadrangle", "Courier New";
+	background:linear-gradient(150deg, #000000 25%, #0f0f0f 50%);
+	font-weight:bold;
+	/*color: lime;*/
+	/*color:red;*/
+	color:#144587;
+	font-size:175%;
+	text-align:justify;
+	white-space:preline;
+}
+.heading{
+	font-variant:small-caps;
+	font-weight:900;
+	font-size:200%;
+	text-align:center;
+	text-decoration:overline underline;
+	text-shadow:1px 1px 7px 3px white;
+}
+hr.maroon{
+	border-style:solid;
+	border-color:maroon;
+}
+ul.centered{
+	list-style:square outside none;
+	padding-left:45%;
+}
+a:visited{
+	color:#144587;
+	/*color:maroon;/*
+	/*color:green;*/
+}
+a:link{
+	color:blue;
+	/*color:red;*/
+	/*color:lime;*/
+}
+a:hover{
+	text-shadow:1px 1px 7px 3px white;
+}
