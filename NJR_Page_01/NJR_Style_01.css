@@ -1,3 +1,4 @@
+/*Fonts*/
 @font-face{
 	font-family: SHERWOOD;
 	src: url('SHERWOOD.TTF');
@@ -6,44 +7,71 @@
 	font-family: quadrangle;
 	src: url('quadrangle.ttf');
 }
-
+/*Defaults and Background*/
 .main{
-	font-family:"quadrangle", "Courier New";
-	background:linear-gradient(150deg, #000000 25%, #0f0f0f 50%);
-	font-weight:bold;
-	/*color: lime;*/
-	/*color:red;*/
+	/*font-family:"quadrangle", "Courier New";*/
+	font-family:SHERWOOD;
+	background: url('logo___alliance_by_desgana-d4yzxpf.png') left top repeat-y, linear-gradient(150deg, #000000 25%, #0f0f0f 50%);
+	font-weight:900;
+	padding-left:25%;
+	position:center;
 	color:#144587;
 	font-size:175%;
 	text-align:justify;
-	white-space:preline;
+	white-space:pre-line;
+	text-shadow:2px 2px 1px 1px black, 1px 1px 7px 4px gold;
 }
 .heading{
 	font-variant:small-caps;
 	font-weight:900;
-	font-size:200%;
+	font-size:350%;
 	text-align:center;
 	text-decoration:overline underline;
-	text-shadow:1px 1px 7px 3px white;
+	text-shadow:2px 2px 1px 1px black, 1px 1px 7px 4px gold;
 }
-hr.maroon{
+/*Colors*/
+p.gold{
+	color:gold;
+	padding-left:25%;
+	position:center;
+	text-shadow:2px 2px 1px 1px black, 1px 1px 7px 7px #144587;
+}
+p.allianceBlue{
+	color:#144587;
+	padding-left:25%;
+	position:center;
+	text-align:justify;
+	white-space:preline;
+	text-shadow:2px 2px 1px 1px black, 1px 1px 7px 4px gold;
+}
+hr.gold{
 	border-style:solid;
-	border-color:maroon;
+	border-color:gold;
+}
+hr.allianceBlue{
+	border-style:solid;
+	border-color:#144587;
 }
 ul.centered{
 	list-style:square outside none;
-	padding-left:45%;
+	padding-left:35%;
+	color:gold;
 }
+/*Links*/
 a:visited{
-	color:#144587;
-	/*color:maroon;/*
-	/*color:green;*/
+	color:white;
 }
 a:link{
-	color:blue;
-	/*color:red;*/
-	/*color:lime;*/
+	color:gold;
+	font-variant:small-caps;
+	font-weight:700;
+	font-size:200%;
+	text-shadow:2px 2px 1px 1px black, 1px 1px 7px 7px #144587;
 }
 a:hover{
-	text-shadow:1px 1px 7px 3px white;
+	text-shadow:1px 3px 1px 1px black, 1px 1px 7px 3px white;
+}
+.linkImg:hover{
+	box-shadow:1px 3px 1px 1px black, 1px 1px 7px 5px white;
+	border-radius:25px;
 }
