@@ -10,15 +10,17 @@
 /*Defaults and Background*/
 .main{
 	/*font-family:"quadrangle", "Courier New";*/
-	font-family:SHERWOOD;
 	background: url('logo___alliance_by_desgana-d4yzxpf.png') left top repeat-y, linear-gradient(150deg, #000000 25%, #0f0f0f 50%);
+	border-style:none;
+}
+.text{
+	font-family:SHERWOOD;
 	font-weight:900;
 	padding-left:25%;
 	position:center;
 	color:#144587;
 	font-size:175%;
 	text-shadow:2px 2px 1px 1px black, 1px 1px 7px 4px gold;
-	border-style:none;
 }
 .heading{
 	font-variant:small-caps;
