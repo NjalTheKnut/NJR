@@ -31,6 +31,7 @@
 	 background:url('logo___alliance_by_desgana-d4yzxpf.png') left top repeat-y;
 	 max-width:25%;
 	 min-height:100%;
+	 float:right;
 }
 /*Colors*/
 p.gold{
