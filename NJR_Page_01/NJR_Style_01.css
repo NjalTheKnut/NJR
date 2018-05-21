@@ -28,8 +28,9 @@
 	text-shadow:2px 2px 1px 1px black, 1px 1px 7px 4px gold;
 }
 .logo{
-	 background: url('logo___alliance_by_desgana-d4yzxpf.png') left top repeat-y;
-	 max-width: 25%;
+	 background:url('logo___alliance_by_desgana-d4yzxpf.png') left top repeat-y;
+	 max-width:25%;
+	 min-height:100%;
 }
 /*Colors*/
 p.gold{
