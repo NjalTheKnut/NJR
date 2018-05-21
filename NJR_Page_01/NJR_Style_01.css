@@ -21,7 +21,7 @@
 }
 .sidebar{
 	background: url('logo___alliance_by_desgana-d4yzxpf.png') left top repeat-y;
-	max-width: 25%;
+	background-size: contain;
 }
 .heading{
 	font-variant:small-caps;
