@@ -11,7 +11,7 @@
 .main{
 	/*font-family:"quadrangle", "Courier New";*/
 	font-family:SHERWOOD;
-	background: url('logo___alliance_by_desgana-d4yzxpf.png') left top repeat-y, linear-gradient(150deg, #000000 25%, #0f0f0f 50%);
+	background: linear-gradient(150deg, #000000 25%, #0f0f0f 50%);
 	font-weight:900;
 	padding-left:25%;
 	position:center;
