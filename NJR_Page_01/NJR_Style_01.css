@@ -8,10 +8,11 @@
 	src: url('quadrangle.ttf');
 }
 /*Defaults and Background*/
-.main{
-	/*font-family:"quadrangle", "Courier New";*/
-	font-family:SHERWOOD;
+body{
 	background: url('logo___alliance_by_desgana-d4yzxpf.png') left top repeat-y, linear-gradient(150deg, #000000 25%, #0f0f0f 50%);
+}
+.main{
+	font-family:SHERWOOD;
 	font-weight:900;
 	padding-left:25%;
 	position:center;
