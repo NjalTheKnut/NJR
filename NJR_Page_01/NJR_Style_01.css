@@ -9,7 +9,7 @@
 }
 /*Defaults and Background*/
 .main{
-	cursor: url(WoW\WoW_Cursor.png), auto;
+	cursor: url(WoW\WoW_Cursor.cur), auto;
 	background: url('logo___alliance_by_desgana-d4yzxpf.png') left top repeat-y, linear-gradient(150deg, #000000 25%, #0f0f0f 50%);
 	border-style:none;
 }
@@ -74,7 +74,7 @@ a:link{
 	text-shadow:2px 2px 1px 1px black, 1px 1px 7px 7px #144587;
 }
 a:hover{
-	cursor:url(WoW\WOW-ENLACE-CURSOR.png), pointer;
+	cursor:url(WoW\WOW-ENLACE-CURSOR.cur), pointer;
 	text-shadow:1px 3px 1px 1px black, 1px 1px 7px 3px white;
 }
 .linkImg:hover{
