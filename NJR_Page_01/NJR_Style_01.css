@@ -66,6 +66,7 @@ a:visited{
 	color:white;
 }
 a:link{
+	cursor: url('WoW\WOW-ENLACE-CURSOR.cur');
 	color:gold;
 	font-variant:small-caps;
 	font-weight:700;
