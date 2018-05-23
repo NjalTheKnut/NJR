@@ -9,7 +9,7 @@
 }
 /*Defaults and Background*/
 .main{
-	cursor: url('WoW\WoW Cursor.png'), auto;
+	cursor: url('WoW\WoW_Cursor.png'), auto;
 	background: url('logo___alliance_by_desgana-d4yzxpf.png') left top repeat-y, linear-gradient(150deg, #000000 25%, #0f0f0f 50%);
 	border-style:none;
 }
