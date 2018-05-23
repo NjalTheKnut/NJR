@@ -9,7 +9,7 @@
 }
 /*Defaults and Background*/
 body{
-	cursor: url('WoW_Cursor.png');
+	cursor: url('/WoW_Cursor.png');
 }
 .main{
 	cursor: url(/WoW_Cursor.png), auto;
