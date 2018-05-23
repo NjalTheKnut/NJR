@@ -7,7 +7,7 @@
 	font-family: quadrangle;
 	src: url('quadrangle.ttf');
 }
-window{
+body{
 	cursor:url("WoW/WoW Cursor.png");
 }
 /*Defaults and Background*/
