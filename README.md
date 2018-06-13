@@ -1,3 +1,3 @@
-# WebDevPractice
-A collection of my personal web developement exercises, (HTML, CSS, JavaScript, et cetera).  For Portfolio.
-See the current work product here:  https://njaltheknut.github.io/NJR/Web/NJR.html
+# NJR
+A collection of my personal software/web exercises, (HTML, CSS, JavaScript, et cetera).  For Portfolio.
+See the current webpage here:  https://njaltheknut.github.io/NJR/Web/NJR.html
