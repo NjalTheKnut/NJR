@@ -13,6 +13,8 @@
 	border-style:none;
 }
 .sidebar-left{
+	background: url('https://njaltheknut.github.io/NJR/Web/Portrait.png') top left no-repeat;
+	background-size: contain;
 	float:right;
 }
 .text{
