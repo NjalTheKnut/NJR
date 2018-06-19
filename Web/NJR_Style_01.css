@@ -33,9 +33,10 @@ h1{
 	padding-left:35%;
 }
 /*Colors*/
-hr.white{
+hr{
 	border-style:solid;
-	border-color:white;
+	border-color:#144587;
+	border-width:10px;
 	clear:both;
 }
 ul.square{
