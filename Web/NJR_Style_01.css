@@ -37,6 +37,7 @@
 hr.white{
 	border-style:solid;
 	border-color:white;
+	float:right left;
 }
 ul.centered{
 	list-style:square outside none;
