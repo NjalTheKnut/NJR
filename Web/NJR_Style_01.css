@@ -47,10 +47,10 @@ ul.none{
 }
 /*Links*/
 a:visited{
-	color:gray;
+	color:white;
 }
 a:link{
-	color:white;
+	color:#144587;
 	font-variant:small-caps;
 	font-weight:200;
 	font-size:150%;
