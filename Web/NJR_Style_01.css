@@ -9,15 +9,8 @@
 }
 /*Defaults and Background*/
 .main{
-	background: linear-gradient(150deg, #000000 25%, #0f0f0f 50%);
+	background: url('https://njaltheknut.github.io/NJR/Web/Portrait.png') left top no-repeat, linear-gradient(150deg, #000000 25%, #0f0f0f 50%);
 	border-style:none;
-}
-.sidebar-left{
-	border-style: none;
-	background-image: url('https://njaltheknut.github.io/NJR/Web/Portrait.png');
-	background-position: top left;
-	background-size: contain;
-	float:right;
 }
 .text{
 	font-family:"quadrangle";
