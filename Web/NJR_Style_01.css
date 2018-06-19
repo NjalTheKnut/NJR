@@ -31,7 +31,7 @@ h1{
 	font-variant:small-caps;
 	font-weight:200;
 	font-size:200%;
-	text-align:center;
+	position:center;
 	text-decoration:overline underline;
 	text-shadow:2px 2px 1px 1px black, 1px 1px 7px 4px white;
 }
