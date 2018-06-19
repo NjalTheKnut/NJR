@@ -15,7 +15,8 @@
 .sidebar-left{
 	width: 25%;
 	border-style: none;
-	background: url('https://njaltheknut.github.io/NJR/Web/Portrait.png') top left no-repeat;
+	background-image: url('https://njaltheknut.github.io/NJR/Web/Portrait.png');
+	background-position: top left;
 	background-size: contain;
 	float:right;
 }
