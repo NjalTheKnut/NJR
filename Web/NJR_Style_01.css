@@ -9,7 +9,7 @@
 }
 /*Defaults and Background*/
 .main{
-	background: url('https://njaltheknut.github.io/NJR/Web/Portrait.png') no-repeat 25% 25%, linear-gradient(150deg, #000000 25%, #0f0f0f 50%);
+	background: url('https://njaltheknut.github.io/NJR/Web/Portrait.png') no-repeat 5% 5%, linear-gradient(150deg, #000000 25%, #0f0f0f 50%);
 	background-size: contain;
 	border-style:none;
 }
