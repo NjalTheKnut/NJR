@@ -25,13 +25,13 @@
 	padding-left:25%;
 	position:center;
 	color:#144587;
-	font-size:175%;
+	font-size:100%;
 	text-shadow:2px 2px 1px 1px black, 1px 1px 7px 4px white;
 }
 .heading{
 	font-variant:small-caps;
-	font-weight:300;
-	font-size:200%;
+	font-weight:200;
+	font-size:150%;
 	text-align:center;
 	text-decoration:overline underline;
 	text-shadow:2px 2px 1px 1px black, 1px 1px 7px 4px white;
@@ -75,14 +75,13 @@ a:visited{
 	color:white;
 }
 a:link{
-	color:gold;
+	color:white;
 	font-variant:small-caps;
-	font-weight:700;
-	font-size:200%;
-	text-shadow:2px 2px 1px 1px black, 1px 1px 7px 7px #144587;
+	font-weight:200;
+	font-size:150%;
+	text-shadow:2px 2px 1px 1px black, 1px 1px 7px 7px #white;
 }
 a:hover{
-	cursor:url(/NJR_Page_01/WOW-ENLACE-CURSOR.cur), pointer;
 	text-shadow:1px 3px 1px 1px black, 1px 1px 7px 3px white;
 }
 .linkImg:hover{
