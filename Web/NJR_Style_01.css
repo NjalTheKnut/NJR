@@ -8,22 +8,18 @@
 	src: url('quadrangle.ttf');
 }
 /*Defaults and Background*/
-body{
-	cursor: url(/NJR_Page_01/WoW_Cursor.cur), auto;
-}
 .main{
-	cursor: url(/NJR_Page_01/WoW_Cursor.cur), auto;
-	background: url('logo___alliance_by_desgana-d4yzxpf.png') left top repeat-y, linear-gradient(150deg, #000000 25%, #0f0f0f 50%);
+	background: url('portrait.png') left top scroll, linear-gradient(150deg, #000000 25%, #0f0f0f 50%);
 	border-style:none;
 }
 .text{
-	font-family:SHERWOOD;
+	font-family:quadrangle;
 	font-weight:900;
 	padding-left:25%;
 	position:center;
 	color:#144587;
 	font-size:175%;
-	text-shadow:2px 2px 1px 1px black, 1px 1px 7px 4px gold;
+	text-shadow:2px 2px 1px 1px black, 1px 1px 7px 4px white;
 }
 .heading{
 	font-variant:small-caps;
@@ -31,10 +27,7 @@ body{
 	font-size:350%;
 	text-align:center;
 	text-decoration:overline underline;
-	text-shadow:2px 2px 1px 1px black, 1px 1px 7px 4px gold;
-}
-.sidebar{
-	background: url('logo___alliance_by_desgana-d4yzxpf.png') left top repeat-y, #144587;
+	text-shadow:2px 2px 1px 1px black, 1px 1px 7px 4px white;
 }
 /*Colors*/
 p.gold{
@@ -49,7 +42,7 @@ p.allianceBlue{
 	position:center;
 	text-align:justify;
 	white-space:preline;
-	text-shadow:2px 2px 1px 1px black, 1px 1px 7px 4px gold;
+	text-shadow:2px 2px 1px 1px black, 1px 1px 7px 4px white;
 }
 hr.gold{
 	padding-left:25%;
@@ -59,6 +52,11 @@ hr.gold{
 hr.allianceBlue{
 	border-style:solid;
 	border-color:#144587;
+}
+hr.white{
+	padding-left:25%;
+	border-style:solid;
+	border-color:white;
 }
 ul.centered{
 	list-style:square outside none;
