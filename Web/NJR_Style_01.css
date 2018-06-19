@@ -15,7 +15,7 @@
 aside.bar-left{
 	height:25%;
 	width:25%;
-	background: url('https://njaltheknut.github.io/NJR/Web/Portrait.png') no-repeat left top;
+	background: url("https://njaltheknut.github.io/NJR/Web/Portrait.png") no-repeat left top;
 	background-size: contain;
 }
 .text{
