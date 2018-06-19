@@ -9,51 +9,34 @@
 }
 /*Defaults and Background*/
 .main{
-	background: url('https://njaltheknut.github.io/NJR/Web/Portrait.png') no-repeat 5% 5%, linear-gradient(150deg, #000000 25%, #0f0f0f 50%);
-	background-size: contain;
+	background: linear-gradient(150deg, #000000 25%, #0f0f0f 50%);
 	border-style:none;
+}
+aside.bar-left{
+	height:25%;
+	width:25%;
+	background: url('https://njaltheknut.github.io/NJR/Web/Portrait.png') no-repeat left top;
+	background-size: contain;
 }
 .text{
 	font-family:"quadrangle";
-	font-weight:50;
+	font-weight:100;
 	padding-left:25%;
 	position:center;
+	white-space:preline;
 	color:#144587;
-	font-size:100%;
+	font-size:150%;
 	text-shadow:2px 2px 1px 1px black, 1px 1px 7px 4px white;
 }
 .heading{
 	font-variant:small-caps;
 	font-weight:200;
-	font-size:150%;
+	font-size:200%;
 	text-align:center;
 	text-decoration:overline underline;
 	text-shadow:2px 2px 1px 1px black, 1px 1px 7px 4px white;
 }
 /*Colors*/
-p.gold{
-	color:gold;
-	padding-left:25%;
-	position:center;
-	text-shadow:2px 2px 1px 1px black, 1px 1px 7px 7px #144587;
-}
-p.allianceBlue{
-	color:#144587;
-	padding-left:25%;
-	position:center;
-	text-align:justify;
-	white-space:preline;
-	text-shadow:2px 2px 1px 1px black, 1px 1px 7px 4px white;
-}
-hr.gold{
-	padding-left:25%;
-	border-style:solid;
-	border-color:gold;
-}
-hr.allianceBlue{
-	border-style:solid;
-	border-color:#144587;
-}
 hr.white{
 	padding-left:25%;
 	border-style:solid;
@@ -62,11 +45,10 @@ hr.white{
 ul.centered{
 	list-style:square outside none;
 	padding-left:35%;
-	color:#144587;
 }
 /*Links*/
 a:visited{
-	color:white;
+	color:gray;
 }
 a:link{
 	color:white;
