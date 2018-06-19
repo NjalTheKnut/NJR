@@ -9,7 +9,7 @@
 }
 /*Defaults and Background*/
 .main{
-	background: url('portrait.png') left top no-repeat scroll, linear-gradient(150deg, #000000 25%, #0f0f0f 50%);
+	background: url('/portrait.png') left top no-repeat, linear-gradient(150deg, #000000 25%, #0f0f0f 50%);
 	border-style:none;
 }
 .text{
@@ -23,8 +23,8 @@
 }
 .heading{
 	font-variant:small-caps;
-	font-weight:900;
-	font-size:350%;
+	font-weight:500;
+	font-size:200%;
 	text-align:center;
 	text-decoration:overline underline;
 	text-shadow:2px 2px 1px 1px black, 1px 1px 7px 4px white;
