@@ -12,9 +12,8 @@
 	background: linear-gradient(150deg, #000000 25%, #0f0f0f 50%);
 	border-style:none;
 }
-.picture{
-	background: url('https://njaltheknut.github.io/NJR/Web/Portrait.png') left top no-repeat;
-	
+.sidebar-left{
+	float:right;
 }
 .text{
 	font-family:"quadrangle";
