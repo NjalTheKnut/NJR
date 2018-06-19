@@ -19,7 +19,6 @@
 .text{
 	font-family:"quadrangle";
 	font-weight:100;
-	padding-left:25%;
 	position:center;
 	white-space:preline;
 	color:#144587;
@@ -36,7 +35,6 @@
 }
 /*Colors*/
 hr.white{
-	padding-left:25%;
 	border-style:solid;
 	border-color:white;
 }
