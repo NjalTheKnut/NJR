@@ -49,9 +49,11 @@
 }
 .floatLeft{
 	float:left;
+	vertical-align:middle;
 }
 .floatRight{
 	float:right;
+	vertical-align:middle;
 }
 /*Lines*/
 hr.blue{
