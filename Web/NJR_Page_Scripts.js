@@ -1,6 +1,3 @@
-function goodbye(){
-		alert("This link will open in a new tab.");
-}
 window.onload = function(){
 	var welcome = "Welcome to Neal's Page!"
 	alert(welcome);
@@ -37,4 +34,7 @@ window.onload = function(){
 		}
 		slider.src = images[num];
 	}
+}
+function goodbye(){
+		alert("This link will open in a new tab.");
 }
