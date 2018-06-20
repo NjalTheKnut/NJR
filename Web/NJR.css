@@ -1,16 +1,7 @@
-/*Defaults and Background*/
+/*General*/
 .main{
 	background: linear-gradient(150deg, #000000 25%, #0f0f0f 50%);
 	border-style:none;
-}
-.portrait{
-	width:25%;
-	float:left;
-	margin-right:10px;
-	margin-bottom:10px;
-	border-style:solid;
-	border-width:10px;
-	border-color:#144587;
 }
 .text{
 	font-family:"Courier New", Courier, monospace;
@@ -33,13 +24,23 @@
 .centered{
 	padding-left:35%;
 }
-/*Colors*/
+.portrait{
+	width:25%;
+	float:left;
+	margin-right:10px;
+	margin-bottom:10px;
+	border-style:solid;
+	border-width:10px;
+	border-color:#144587;
+}
+/*Lines*/
 hr.blue{
 	border-style:solid;
 	border-color:#144587;
 	border-width:2.5px;
 	clear:both;
 }
+/*Lists*/
 ul.square{
 	list-style:square outside none;
 }
