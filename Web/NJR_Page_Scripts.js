@@ -1,10 +1,10 @@
+function goodbye(){
+		alert("This link will open in a new tab.");
+}
 window.onload = function(){
 	var welcome = "Welcome to Neal's Page!"
 	alert(welcome);
-	var a = document.getElementsByTagName('a');
-	a.onclick = function(){
-		alert("This link will open in a new tab.");
-	}
+
 	var images = [
 		'https://njaltheknut.github.io/NJR/Web/cert-1014-7239257.jpg',
 		'https://njaltheknut.github.io/NJR/Web/cert-1023-7239257.jpg',
