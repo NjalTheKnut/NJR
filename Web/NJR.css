@@ -43,7 +43,7 @@ hr.blue{
 /*Lists*/
 ul.square{
 	list-style:square outside none;
-	position:center;
+	position:center-right;
 	text-align:left;
 	padding-left:25%;
 }
