@@ -17,7 +17,6 @@
 	font-weight:100;
 	position:center;
 	white-space:preline;
-	padding-left:25%;
 	color:#144587;
 	font-size:150%;
 	text-shadow:2px 2px 1px 1px black, 1px 1px 7px 4px white;
@@ -26,6 +25,7 @@ h1{
 	font-variant:small-caps;
 	font-weight:bold;
 	font-size:200%;
+	padding-left:35%;
 	position:center;
 	text-decoration:overline underline;
 	text-shadow:2px 2px 1px 1px black, 1px 1px 7px 4px white;
