@@ -52,6 +52,9 @@ table{
 	border:none;
 	table-layout:fixed;
 }
+.pics{
+	max-width:75%;
+}
 /*Lines*/
 hr.blue{
 	border-style:solid;
