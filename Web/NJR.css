@@ -28,6 +28,7 @@
 .centered{
 	position:center-left;
 	text-align:center;
+	float:left right;
 }
 .portrait{
 	width:25%;
@@ -49,11 +50,11 @@
 }
 .floatLeft{
 	float:left;
-	vertical-align:middle;
+	position:middle;
 }
 .floatRight{
 	float:right;
-	vertical-align:middle;
+	position:middle;
 }
 /*Lines*/
 hr.blue{
