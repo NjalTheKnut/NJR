@@ -50,13 +50,13 @@
 }
 .floatLeft{
 	float:left;
-	padding-left:5%;
-	position:middle;
+	margin-left:5%;
+	vertical-align:middle;
 }
 .floatRight{
 	float:right;
-	padding-right:5%;
-	position:middle;
+	margin-right:5%;
+	vertical-align:middle;
 }
 /*Lines*/
 hr.blue{
