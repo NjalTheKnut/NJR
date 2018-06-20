@@ -50,7 +50,7 @@ ul.square{
 ul.none{
 	list-style: none outside none;
 	position:center;
-	text-align:left;
+	text-align:center-left;
 	padding-left:25%;
 }
 /*Links*/
