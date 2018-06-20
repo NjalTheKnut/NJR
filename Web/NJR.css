@@ -23,6 +23,7 @@
 .left{
 	padding-left:30%;
 	text-align:left;
+	white-space:preline;
 }
 .centered{
 	position:center-left;
