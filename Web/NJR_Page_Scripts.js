@@ -1,14 +1,12 @@
+var message = "Welcome to Neal's Page!"
 function func1(str){
 	alert(str);
 }
-
-var message = "Welcome to Neal's Page!"
-window.onload(func1(message));
-
 function func2(){
 	var leavePageMessage ="This link will open in a new tab."
 	func1(leavePageMessage);
 }
+window.onload(func1(message));
 
 var images = [
 	'https://njaltheknut.github.io/NJR/Web/cert-1014-7239257.jpg',
@@ -23,7 +21,7 @@ var images = [
 	'https://njaltheknut.github.io/NJR/Web/cert-1081-7239257.jpg'
 ];
 var num = 0;
-function = next(){
+function next(){
 	var slider = document.getElementById('slider');
 	num++;
 	if(num >= images.length){
