@@ -14,6 +14,8 @@ var prevButton = document.getElementById("prevButton");
 var nextButton = document.getElementById("nextButton");
 prevButton.addEventListener("click", prev);
 nextButton.addEventListener("click", next);
+prevButton.onclick = prev();
+nextButton.onclick = next();
 
 var images = [
 	"cert-1014-7239257.jpg",
