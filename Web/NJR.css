@@ -6,6 +6,7 @@
 .text{
 	font-family:"Courier New", Courier, monospace;
 	font-weight:100;
+	position:center-left;
 	white-space:preline;
 	color:#144587;
 	font-size:150%;
