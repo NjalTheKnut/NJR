@@ -1,7 +1,8 @@
 window.onload = function(){
 	var welcome = "Welcome to Neal's Page!"
 	alert(welcome);
-	function goodbye(){
+	var a = document.getElementsByTagName('a');
+	a.onclick = function(){
 		alert("This link will open in a new tab.");
 	}
 	var images = [
