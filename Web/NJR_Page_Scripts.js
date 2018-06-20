@@ -12,8 +12,8 @@ function func2(){
 
 var prevButton = document.getElementById("prevButton");
 var nextButton = document.getElementById("nextButton");
-addEventListener("click", prevButton, false);
-addEventListener("click", nextButton, false);
+prevButton.addEventListener("click", prev);
+nextButton.addEventListener("click", next);
 
 var images = [
 	"cert-1014-7239257.jpg",
