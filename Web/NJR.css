@@ -49,7 +49,7 @@ ul.square{
 }
 ul.none{
 	list-style: none outside none;
-	position:center;
+	position:center-right;
 	text-align:center;
 	padding-left:25%;
 }
