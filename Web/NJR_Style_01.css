@@ -13,7 +13,7 @@
 	border-color:#144587;
 }
 .text{
-	font-family:"Courier New";
+	font-family:"Courier New", Courier, monospace;
 	font-weight:100;
 	position:center;
 	white-space:preline;
