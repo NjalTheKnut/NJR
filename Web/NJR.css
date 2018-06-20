@@ -43,10 +43,12 @@ hr.blue{
 /*Lists*/
 ul.square{
 	list-style:square outside none;
+	position:center;
 	padding-left:25%;
 }
 ul.none{
 	list-style: none outside none;
+	position:center;
 	padding-left:25%;
 }
 /*Links*/
