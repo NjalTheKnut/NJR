@@ -11,21 +11,19 @@ function func2(){
 }
 
 var images = [
-	"cert-1014-7239257.jpg",
-	"cert-1023-7239257.jpg",
-	"cert-1024-7239257.jpg",
-	"cert-1051-7239257.jpg",
-	"cert-1059-7239257.jpg",
-	"cert-1060-7239257.jpg",
-	"cert-1068-7239257.jpg",
-	"cert-1073-7239257.jpg",
-	"cert-1080-7239257.jpg",
-	"cert-1081-7239257.jpg"
+	'https://njaltheknut.github.io/NJR/Web/cert-1014-7239257.jpg',
+	'https://njaltheknut.github.io/NJR/Web/cert-1023-7239257.jpg',
+	'https://njaltheknut.github.io/NJR/Web/cert-1024-7239257.jpg',
+	'https://njaltheknut.github.io/NJR/Web/cert-1051-7239257.jpg',
+	'https://njaltheknut.github.io/NJR/Web/cert-1059-7239257.jpg',
+	'https://njaltheknut.github.io/NJR/Web/cert-1060-7239257.jpg',
+	'https://njaltheknut.github.io/NJR/Web/cert-1068-7239257.jpg',
+	'https://njaltheknut.github.io/NJR/Web/cert-1073-7239257.jpg',
+	'https://njaltheknut.github.io/NJR/Web/cert-1080-7239257.jpg',
+	'https://njaltheknut.github.io/NJR/Web/cert-1081-7239257.jpg'
 ];
-var prevButton = document.getElementById("prevButton");
-var nextButton = document.getElementById("nextButton");
 var num = 0;
-prevButton.onclick = next(){
+function = next(){
 	var slider = document.getElementById("slider");
 	num++;
 	if(num >= images.length){
@@ -33,7 +31,7 @@ prevButton.onclick = next(){
 	}
 	slider.src = images[num];
 }
-nextButton.onclick = prev(){
+function prev(){
 	var slider = document.getElementById("slider");
 	num--;
 	if(num < 0){
