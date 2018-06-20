@@ -20,6 +20,9 @@
 	text-decoration:overline underline;
 	text-shadow:2px 2px 1px 1px black, 1px 1px 7px 4px white;
 }
+.left{
+	text-align:center-left;
+}
 .centered{
 	position:center-left;
 	text-align:center;
