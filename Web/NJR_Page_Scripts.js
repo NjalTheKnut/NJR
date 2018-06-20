@@ -2,11 +2,6 @@ window.onload = function(){
 	var welcome = "Welcome to Neal's Page!"
 	alert(welcome);
 
-	function goodbye(){
-		var leavePageMessage = "This link will open in a new tab."
-		alert(leavePageMessage);
-	}
-
 	var images = [
 		'https://njaltheknut.github.io/NJR/Web/cert-1014-7239257.jpg',
 		'https://njaltheknut.github.io/NJR/Web/cert-1023-7239257.jpg',
@@ -40,3 +35,6 @@ window.onload = function(){
 		slider.src = images[num];
 	}
 }
+function goodbye(){
+		alert("This link will open in a new tab.");
+	}
