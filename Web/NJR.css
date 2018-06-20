@@ -50,10 +50,14 @@
 }
 .floatLeft{
 	float:left;
+	padding-left:5%;
+	padding-top:45%;
 	position:middle;
 }
 .floatRight{
 	float:right;
+	padding-right:5%;
+	padding-bottom:45%;
 	position:middle;
 }
 /*Lines*/
