@@ -54,6 +54,7 @@ table{
 }
 .pics{
 	max-width:75%;
+	position:center;
 }
 /*Lines*/
 hr.blue{
