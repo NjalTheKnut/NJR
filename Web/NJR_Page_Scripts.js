@@ -12,8 +12,8 @@ function func2(){
 
 var prevButton = document.getElementById("prevButton");
 var nextButton = document.getElementById("nextButton");
-prevButton.addEventListener("click", prev);
-nextButton.addEventListener("click", next);
+prevButton.addEventListener("click", prev, false);
+nextButton.addEventListener("click", next, false);
 prevButton.onclick = prev();
 nextButton.onclick = next();
 
