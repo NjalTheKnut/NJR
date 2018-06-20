@@ -50,6 +50,7 @@
 }
 table{
 	border:none;
+	table-layout:fixed;
 }
 /*Lines*/
 hr.blue{
