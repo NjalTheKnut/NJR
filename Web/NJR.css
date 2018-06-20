@@ -45,7 +45,7 @@ ul.square{
 	list-style:square outside none;
 	position:center;
 	text-align:left;
-	padding-left:35%;
+	padding-left:40%;
 }
 ul.none{
 	list-style: none outside none;
