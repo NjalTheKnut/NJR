@@ -39,9 +39,8 @@
 	border-color:#144587;
 }
 button{
-	border-style:solid;
-	border-color:#144587;
 	border-radius:25px;
+	background-color:#144587;
 }
 /*Lines*/
 hr.blue{
