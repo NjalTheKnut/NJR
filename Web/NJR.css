@@ -38,6 +38,9 @@
 	border-width:10px;
 	border-color:#144587;
 }
+button{
+	border-radius:25px;
+}
 /*Lines*/
 hr.blue{
 	border-style:solid;
