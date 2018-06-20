@@ -10,6 +10,11 @@ function func2(){
 	func1(leavePageMessage);
 }
 
+var prevButton = document.getElementById("prevButton");
+var nextButton = document.getElementById("nextButton");
+addEventListener("click", prevButton, false);
+addEventListener("click", nextButton, false);
+
 var images = [
 	"cert-1014-7239257.jpg",
 	"cert-1023-7239257.jpg",
