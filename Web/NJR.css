@@ -47,6 +47,12 @@
 	box-shadow:1px 3px 1px 1px black, 1px 1px 7px 5px white;
 	border-radius:25px;
 }
+.floatLeft{
+	float:left;
+}
+.floatRight{
+	float:right;
+}
 /*Lines*/
 hr.blue{
 	border-style:solid;
