@@ -10,13 +10,6 @@ function func2(){
 	func1(leavePageMessage);
 }
 
-var prevButton = document.getElementById("prevButton");
-var nextButton = document.getElementById("nextButton");
-prevButton.addEventListener("click", prev, false);
-nextButton.addEventListener("click", next, false);
-prevButton.onclick = prev();
-nextButton.onclick = next();
-
 var images = [
 	"cert-1014-7239257.jpg",
 	"cert-1023-7239257.jpg",
@@ -29,9 +22,10 @@ var images = [
 	"cert-1080-7239257.jpg",
 	"cert-1081-7239257.jpg"
 ];
-
+var prevButton = document.getElementById("prevButton");
+var nextButton = document.getElementById("nextButton");
 var num = 0;
-function next(){
+prevButton.onclick = next(){
 	var slider = document.getElementById("slider");
 	num++;
 	if(num >= images.length){
@@ -39,7 +33,7 @@ function next(){
 	}
 	slider.src = images[num];
 }
-function prev(){
+nextButton.onclick = prev(){
 	var slider = document.getElementById("slider");
 	num--;
 	if(num < 0){
