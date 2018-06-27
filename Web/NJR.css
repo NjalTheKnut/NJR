@@ -49,6 +49,7 @@
 	border-radius:25px;
 }
 table{
+	position:center;
 	border:none;
 	table-layout:fixed;
 }
