@@ -49,9 +49,10 @@
 	border-radius:25px;
 }
 .slider{
+	padding-left:25%;
 	position:center;
 	border:none;
-	table-layout:auto;
+	table-layout:fixed;
 }
 .pics{
 	max-width:75%;
