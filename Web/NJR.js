@@ -1,5 +1,6 @@
 window.onload = function(){
 	var images = [
+		'https://njaltheknut.github.io/NJR/Web/CompTIA_Security+_ce_certificate.jpg',
 		'https://njaltheknut.github.io/NJR/Web/cert-1014-7239257.jpg',
 		'https://njaltheknut.github.io/NJR/Web/cert-1023-7239257.jpg',
 		'https://njaltheknut.github.io/NJR/Web/cert-1024-7239257.jpg',
@@ -10,7 +11,6 @@ window.onload = function(){
 		'https://njaltheknut.github.io/NJR/Web/cert-1073-7239257.jpg',
 		'https://njaltheknut.github.io/NJR/Web/cert-1080-7239257.jpg',
 		'https://njaltheknut.github.io/NJR/Web/cert-1081-7239257.jpg',
-		'https://njaltheknut.github.io/NJR/Web/CompTIA_Security+_ce_certificate.jpg'
 	];
 	var num = 0;
 	var prevButton = document.getElementById('prevButton');
