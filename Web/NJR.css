@@ -27,6 +27,7 @@
 }
 .right{
 	position:right;
+	text-align:right;
 }
 .centered{
 	position:center-left;
