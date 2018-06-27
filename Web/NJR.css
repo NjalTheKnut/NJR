@@ -51,7 +51,7 @@
 .slider{
 	position:center;
 	border:none;
-	table-layout:fixed;
+	table-layout:auto;
 }
 .pics{
 	max-width:75%;
