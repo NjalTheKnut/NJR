@@ -25,6 +25,9 @@
 	text-align:left;
 	white-space:justify;
 }
+.right{
+	position:right;
+}
 .centered{
 	position:center-left;
 	text-align:center;
