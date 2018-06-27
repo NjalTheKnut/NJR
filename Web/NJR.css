@@ -55,6 +55,7 @@
 	table-layout:fixed;
 }
 .pics{
+	max-width:50%;
 	position:center;
 }
 /*Lines*/
