@@ -41,6 +41,7 @@
 }
 .round{
 	color:#ffffff;
+	position:center;
 	border-radius:25px;
 	background-color:#144587;
 }
