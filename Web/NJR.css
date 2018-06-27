@@ -40,9 +40,8 @@
 	border-color:#144587;
 }
 .topButton{
-	background-attachment:scroll;
 	color:#ffffff;
-	position:bottom right;
+	position:right;
 	border-radius:25px;
 	background-color:#144587;
 }
