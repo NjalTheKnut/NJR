@@ -9,7 +9,8 @@ window.onload = function(){
 		'https://njaltheknut.github.io/NJR/Web/cert-1068-7239257.jpg',
 		'https://njaltheknut.github.io/NJR/Web/cert-1073-7239257.jpg',
 		'https://njaltheknut.github.io/NJR/Web/cert-1080-7239257.jpg',
-		'https://njaltheknut.github.io/NJR/Web/cert-1081-7239257.jpg'
+		'https://njaltheknut.github.io/NJR/Web/cert-1081-7239257.jpg',
+		'https://njaltheknut.github.io/NJR/Web/CompTIA_Security+_ce_certificate.pdf'
 	];
 	var num = 0;
 	var prevButton = document.getElementById('prevButton');
