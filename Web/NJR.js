@@ -32,4 +32,8 @@ window.onload = function(){
 		}
 		slider.src = images[num];
 	}
+	/*var topButton = document.getElementById('topButton');
+	topButton.onclick = function(){
+		
+	}*/
 }
