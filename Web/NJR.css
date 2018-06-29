@@ -11,6 +11,7 @@
 	color:#144587;
 	font-size:150%;
 	text-shadow:2px 2px 1px 1px black, 1px 1px 7px 4px white;
+	-webkit-text-shadow:2px 2px 1px 1px black, 1px 1px 7px 4px white;
 }
 .heading{
 	font-variant:small-caps;
@@ -19,6 +20,7 @@
 	text-align:center;
 	text-decoration:overline underline;
 	text-shadow:2px 2px 1px 1px black, 1px 1px 7px 4px white;
+	-webkit-text-shadow:2px 2px 1px 1px black, 1px 1px 7px 4px white;
 }
 .left{
 	padding-left:30%;
@@ -43,27 +45,19 @@
 	border-width:10px;
 	border-color:#144587;
 }
-.topButton{
-	color:#ffffff;
-	position:right;
-	border-radius:25px;
-	background-color:#144587;
-}
-.topButton:hover{
-	cursor:pointer;
-	box-shadow:1px 3px 1px 1px black, 1px 1px 7px 5px white;
-	border-radius:25px;
-}
 .round{
 	color:#ffffff;
 	position:center;
 	border-radius:25px;
+	-webkit-border-radius:25px;
 	background-color:#144587;
 }
 .round:hover{
 	cursor:pointer;
 	box-shadow:1px 3px 1px 1px black, 1px 1px 7px 5px white;
+	-webkit-box-shadow:1px 3px 1px 1px black, 1px 1px 7px 5px white;
 	border-radius:25px;
+	-webkit-border-radius:25px;
 }
 .slider{
 	position:center;
@@ -105,13 +99,17 @@ a:link{
 	font-weight:200;
 	font-size:150%;
 	text-shadow:2px 2px 1px 1px black, 1px 1px 7px 7px white;
+	-webkit-text-shadow:2px 2px 1px 1px black, 1px 1px 7px 7px white;
 }
 a:hover{
 	text-shadow:1px 3px 1px 1px black, 1px 1px 7px 3px white;
+	-webkit-text-shadow:1px 3px 1px 1px black, 1px 1px 7px 3px white;
 }
 .linkImg:hover{
 	box-shadow:1px 3px 1px 1px black, 1px 1px 7px 5px white;
+	-webkit-box-shadow:1px 3px 1px 1px black, 1px 1px 7px 5px white;
 	border-radius:25px;
+	-webkit-border-radius:25px;
 }
 #scroll {
     position:fixed;
