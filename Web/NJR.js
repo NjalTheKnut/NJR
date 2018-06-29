@@ -1,8 +1,8 @@
 $(document).ready(function(){
 	var e = $("#test").html();
 	for(x=0;x<100;x++){
-			$("#test").after(e);
-	}	
+		e.after(e);
+	}
 	var images = [
 		'https://njaltheknut.github.io/NJR/Web/CompTIA_Security+_ce_certificate.jpg',
 		'https://njaltheknut.github.io/NJR/Web/cert-1014-7239257.jpg',
