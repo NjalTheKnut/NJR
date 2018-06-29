@@ -46,7 +46,9 @@ $(document).ready(function(){
 	});
 
 	var e = $("#test").html();
-	$(window).scroll(function(){
-		$("#test").after(e);
-	})
+	$(window).ready(function(){
+		for(x=0;x<100;x++){
+			$("#test").after(e);
+		}
+	});
 });
