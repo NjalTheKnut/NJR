@@ -9,13 +9,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script type="text/javascript">
 $(document).ready(function(){
-    $(window).onload(function(){
-		var e = $("#test").html();
-		for(x=0;x<100;x++){
-			e.after(e.html());
-		}
-	});
-	$(window).scroll(function(){
+    $(window).scroll(function(){
         if($(this).scrollTop() > 100){
             $('#scroll').fadeIn();
         }else{
@@ -37,7 +31,6 @@ $(document).ready(function(){
 <!-- ++++++++++++ Page Content Goes Here ++++++++++++ -->
 <hr class="blue"/>
 <img class="portrait" src="https://njaltheknut.github.io/NJR/Web/Portrait.png" alt="Could not load Neal's glorious visage!"/>
-
 <article class="text">
 <section>
 <header class="heading"><h1 class="left">Neal J. Robison</h1></header>
@@ -45,12 +38,10 @@ $(document).ready(function(){
 I am a graduate of Southern Virginia University with a Bachelor's Degree in Computer Science and a minor in Business.  I am analytical, inquisitive and skilled at learning new interfaces.  I have a very rententive memory with a talent for discovering patterns and connections associated with information presented for analysis.
 </p>
 </section>
-
 <hr class="blue"/>
 <section>
 <header><h1 class="heading">Profiles</h1></header>
 <div class="centered"><p class="text"><a href="https://www.sololearn.com/Profile/7239257" target="_blank">Neal's SoloLearn Profile</a></p></div>
-
 <div class="centered"><p class="text">Neal's Codewars Profile<br/>(Click Badge Below)<br/><br/><a href="https://www.codewars.com/users/NjalTheKnut" target="_blank">
 <img class="linkImg" src="https://www.codewars.com/users/NjalTheKnut/badges/large" alt="Could not Load CodeWars Badge!"/></a></p></div>
 </section>
@@ -65,7 +56,6 @@ I am a graduate of Southern Virginia University with a Bachelor's Degree in Comp
 	</tr>
 <table>
 </section>
-
 <hr class="blue"/>
 <section>
 <header><h1 class="heading">Neal's Skills</h1></header>
@@ -85,9 +75,7 @@ I am a graduate of Southern Virginia University with a Bachelor's Degree in Comp
 </ul>
 </div>
 </section>
-
 <hr class="blue"/>
-<div id="test"><p>This element is part of a jQuery test.  Please disregard unless involved in development.</p></div>
 </article>
 </body>
 </html>
