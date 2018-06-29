@@ -1,4 +1,4 @@
-$(window).ready(function(){
+$(window).onload(function(){
 	var e = $("#test").html();
 	for(x=0;x<100;x++){
 		e.after(e.html());
