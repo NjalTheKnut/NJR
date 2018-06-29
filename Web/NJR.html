@@ -1,14 +1,106 @@
-<!DOCTYPE HTML>
-<html>
+<!DOCTYPE html>
+<html lang="en-US">
 <head>
+<meta charset="utf-8">
 <title>Neal's Page</title>
 <link rel="shorcut icon" href="https://njaltheknut.github.io/NJR/Web/Portrait.png">
 <link rel="stylesheet" href="NJR.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script src="NJR.js"></script>
+<script type="text/javascript">
+window.onload = function(){
+	var e = $("#test").html();
+	for(x=0;x<100;x++){
+		e.after(e.html());
+	}
+	var images = [
+		'https://njaltheknut.github.io/NJR/Web/CompTIA_Security+_ce_certificate.jpg',
+		'https://njaltheknut.github.io/NJR/Web/cert-1014-7239257.jpg',
+		'https://njaltheknut.github.io/NJR/Web/cert-1023-7239257.jpg',
+		'https://njaltheknut.github.io/NJR/Web/cert-1024-7239257.jpg',
+		'https://njaltheknut.github.io/NJR/Web/cert-1051-7239257.jpg',
+		'https://njaltheknut.github.io/NJR/Web/cert-1059-7239257.jpg',
+		'https://njaltheknut.github.io/NJR/Web/cert-1060-7239257.jpg',
+		'https://njaltheknut.github.io/NJR/Web/cert-1068-7239257.jpg',
+		'https://njaltheknut.github.io/NJR/Web/cert-1073-7239257.jpg',
+		'https://njaltheknut.github.io/NJR/Web/cert-1080-7239257.jpg',
+		'https://njaltheknut.github.io/NJR/Web/cert-1081-7239257.jpg',
+	];
+	var num = 0;
+	var prevButton = document.getElementById('prevButton');
+	prevButton.onclick = function(){
+		var slider = document.getElementById('slider');
+		num--;
+		if(num < 0){
+			num = images.length-1;
+		}
+		slider.src = images[num];
+		
+	}
+	var nextButton = document.getElementById('nextButton');
+	nextButton.onclick = function(){
+		var slider = document.getElementById('slider');
+		num++;
+		if(num >= images.length){
+			num = 0;
+		}
+		slider.src = images[num];
+	}
+}
+$(document).ready(function(){
+    $(window).scroll(function(){
+        if($(this).scrollTop() > 100){
+            $('#scroll').fadeIn();
+        }else{
+            $('#scroll').fadeOut();
+        }
+    });
+    $('#scroll').click(function(){
+        $("html, body").animate({ scrollTop: 0 }, 600);
+        return false;
+    });
+});
+</script>
+<style type="text/css">
+/* BackToTop button css */
+#scroll {
+    position:fixed;
+    right:10px;
+    bottom:10px;
+    cursor:pointer;
+    width:50px;
+    height:50px;
+    background-color:#3498db;
+    text-indent:-9999px;
+    display:none;
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:5px;
+}
+#scroll span {
+    position:absolute;
+    top:50%;
+    left:50%;
+    margin-left:-8px;
+    margin-top:-12px;
+    height:0;
+    width:0;
+    border:8px solid transparent;
+    border-bottom-color:#ffffff
+}
+#scroll:hover {
+    background-color:#e74c3c;
+    opacity:1;
+    filter:"alpha(opacity=100)";
+    -ms-filter:"alpha(opacity=100)";
+}
+</style>
 </head>
 <body class="main">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<!-- BackToTop Button -->
+<a href="javascript:void(0);" id="scroll" title="Scroll to Top" style="display: none;">Top<span></span></a>
+
+<!-- ++++++++++++ Page Content Goes Here ++++++++++++ -->
 <hr class="blue"/>
 <img class="portrait" src="https://njaltheknut.github.io/NJR/Web/Portrait.png" alt="Could not load Neal's glorious visage!"/>
 
